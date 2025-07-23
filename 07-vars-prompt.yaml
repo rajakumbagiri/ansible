@@ -1,4 +1,4 @@
-- name: vars from prompt
+- name: variables from prompt
   host: localhost
   vars_prompt:
    - name: USERNAME
