@@ -12,5 +12,5 @@
 
    - name: number is grater than 10
      ansible.builtin.debug:
-      msg: "Given number {{number}} is grater than 10"
+      msg: "Given number {{number}} is grater than or equal to 10"
      when: number | int > 10
